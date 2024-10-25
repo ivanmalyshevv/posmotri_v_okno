@@ -167,7 +167,7 @@ ol {
   text-align: center;
   font-size: 18px;
   font-weight: 700;
-  padding: 6px;
+  height: 34px;
 }
 
 .button:focus {
