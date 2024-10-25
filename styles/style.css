@@ -167,6 +167,7 @@ ol {
   text-align: center;
   font-size: 18px;
   font-weight: 700;
+  padding: 6px;
 }
 
 .button:focus {
@@ -187,7 +188,6 @@ ol {
 
 .search-form__submit-button {
   width: 194px;
-  height: 34px;
   display: flex;
   align-self: flex-end;
   align-items: center;
@@ -278,6 +278,10 @@ ol {
   font-style: normal;
   line-height: 100%;
   text-transform: uppercase;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 187px;
 }
 
 .content__video-card-description {
